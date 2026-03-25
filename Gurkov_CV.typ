@@ -41,7 +41,7 @@
 = Education
 #set par(spacing: 0.65em)
 #line(length: 100%)
-#box(image("icons/Coat_of_arms_of_SPbU.svg", width: 2%))
+#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%))
 #strong(text("Saint Petersburg State University", baseline: -2pt))
 #h(1fr)
 #text("2018–2022", baseline: -2pt)
@@ -52,7 +52,7 @@
 #text("GPA: 4.77", style: "oblique")
 
 #set par(spacing: 0.65em)
-#box(image("icons/Coat_of_arms_of_SPbU.svg", width: 2%))
+#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%))
 #strong(text("Saint Petersburg State University", baseline: -2pt))
 #h(1fr)
 #text("2022–2024", baseline: -2pt)
@@ -75,7 +75,7 @@
 
 = Teaching
 #line(length: 100%)
-#box(image("icons/01_Logo_HSE_full_eng_PANTONE.svg", width: 2%)) #strong(text("Higher School of Economics", baseline: -1pt))#h(1fr)#text("Sep. – Dec. 2024", baseline: -1pt)
+#box(image("images/01_Logo_HSE_full_eng_PANTONE.svg", width: 2%)) #strong(text("Higher School of Economics", baseline: -1pt))#h(1fr)#text("Sep. – Dec. 2024", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
   - Taught courses «Speech Technologies» and «Introduction to Computer Science» as a visiting lecturer at the HSE University
   - Participated in the organization of a reading club on Natural Language Processing and Deep Learning papers
@@ -92,13 +92,13 @@
 
 = Professional Development
 #line(length: 100%)
-#box(image("icons/mipt_eng_base_png.png", width: 10%))#strong(text("Deep Learning School", baseline: -10pt))#h(1fr)#text("Sep. 2023 – Feb. 2024", baseline: -10pt)
+#box(image("images/mipt_eng_base_png.png", width: 10%))#strong(text("Deep Learning School", baseline: -10pt))#h(1fr)#text("Sep. 2023 – Feb. 2024", baseline: -10pt)
 
 Completed a certification from the Moscow Institute of Physics and Technology, strengthening my machine learning skills in computer vision, including classification, segmentation, and generation using PyTorch
 
 = Experience
 #line(length: 100%)
-#box(image("icons/headphones_snail_upscaled.png", width: 3%), baseline: 3pt)
+#box(image("images/headphones_snail_upscaled.png", width: 3%), baseline: 3pt)
 #strong(text("SPBU Phonetics Lab Internship", baseline: -1pt)) #text("|", baseline: -1pt) #text("Python (librosa, numpy, scipy), Bash, FFmpeg", style: "oblique", baseline: -0.4pt)
 #h(1fr)#text("Sep. 2023 – Feb. 2024", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
@@ -108,7 +108,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
 ]
 \
 
-#box(image("icons/Speech Drive.png", width: 2.5%), baseline: 1pt)
+#box(image("images/Speech Drive.png", width: 2.5%), baseline: 1pt)
 #strong(text("Speech Drive", baseline: -1pt)) #text("|", baseline: -1pt) #text("Python, Praat, pyannote, llama-cpp, PyTorch, gRPC", style: "oblique", baseline: -0.4pt)
 #h(1fr)#text("Mar. 2024 – now", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
@@ -146,12 +146,12 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
       // #nerd-icons.nf-icon("nf-dev-vscode") VSCode,
       #nerd-icons.nf-icon("nf-dev-docker") Docker \
       // #nerd-icons.nf-icon("nf-dev-jupyter") Jupyter,
-      #box(image("icons/FFmpeg_icon.svg", width: 8%), baseline: 2pt) FFmpeg
+      #box(image("images/FFmpeg_icon.svg", width: 8%), baseline: 2pt) FFmpeg
     ], align(center)[
-      #box(image("icons/kaldi_logo.png", width: 8%), baseline: 2pt) Kaldi \
-      #box(image("icons/Praat.svg", width: 8%), baseline: 2pt) Praat \
-      #box(image("icons/colab.svg", width: 8.5%)) Google Colab \
-      // #box(image("icons/logo-ud.png", width: 2%), baseline: 1.5pt) Universal Dependencies,
+      #box(image("images/kaldi_logo.png", width: 8%), baseline: 2pt) Kaldi \
+      #box(image("images/Praat.svg", width: 8%), baseline: 2pt) Praat \
+      #box(image("images/colab.svg", width: 8.5%)) Google Colab \
+      // #box(image("images/logo-ud.png", width: 2%), baseline: 1.5pt) Universal Dependencies,
     ], align(center)[
       #nerd-icons.nf-icon("nf-md-regex") Regular Expressions
     ]
@@ -164,7 +164,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
     [
       #nerd-icons.nf-icon("nf-dev-pandas")Pandas \
       #nerd-icons.nf-icon("nf-dev-numpy") NumPy \
-      #box(image("icons/scipy_logo.svg", width: 7%), baseline: 2pt) SciPy \
+      #box(image("images/scipy_logo.svg", width: 7%), baseline: 2pt) SciPy \
       #nerd-icons.nf-icon("nf-dev-matplotlib") Matplotlib
     ], [
       #nerd-icons.nf-icon("nf-dev-pytorch") PyTorch \
@@ -172,7 +172,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
       #emoji.face.hug HuggingFace \
       #nerd-icons.nf-icon("nf-dev-tensorflow") TensorFlow (Keras) \
     ], [
-      // #box(image("icons/librosa_full_logo.svg", width: 20%), baseline: 6pt) \
+      // #box(image("images/librosa_full_logo.svg", width: 20%), baseline: 6pt) \
       • librosa \
       • NLTK \
       • SpaCy \
