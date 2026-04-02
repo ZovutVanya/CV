@@ -109,7 +109,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
 \
 
 #box(image("images/Speech Drive.png", width: 2.5%), baseline: 1pt)
-#strong(text("Speech Drive", baseline: -1pt)) #text("|", baseline: -1pt) #text("Python, Praat, pyannote, llama-cpp, PyTorch, gRPC", style: "oblique", baseline: -0.4pt)
+#strong(text("Speech Drive", baseline: -1pt)) #text("|", baseline: -1pt) #text("Python, Praat, pyannote, llama-cpp, PyTorch, gRPC, Docker", style: "oblique", baseline: -0.4pt)
 #h(1fr)#text("Mar. 2024 – now", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
   - Developing the algorithm for automatic detection and classification of emotion in speech
@@ -143,18 +143,19 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
       #nerd-icons.nf-icon("nf-fa-git")+GitHub
     ], align(center)[
       #nerd-icons.nf-icon("nf-custom-neovim") NeoVim \
-      // #nerd-icons.nf-icon("nf-dev-vscode") VSCode,
+      #nerd-icons.nf-icon("nf-dev-vscode") VSCode \
       #nerd-icons.nf-icon("nf-dev-docker") Docker \
       // #nerd-icons.nf-icon("nf-dev-jupyter") Jupyter,
-      #box(image("images/FFmpeg_icon.svg", width: 8%), baseline: 2pt) FFmpeg
     ], align(center)[
+      #box(image("images/FFmpeg_icon.svg", width: 8%), baseline: 2pt) FFmpeg \
       #box(image("images/kaldi_logo.png", width: 8%), baseline: 2pt) Kaldi \
       #box(image("images/Praat.svg", width: 8%), baseline: 2pt) Praat \
-      #box(image("images/colab.svg", width: 8.5%)) Google Colab \
       // #box(image("images/logo-ud.png", width: 2%), baseline: 1.5pt) Universal Dependencies,
     ], align(center)[
-      #nerd-icons.nf-icon("nf-md-regex") Regular Expressions
-    ]
+      #box(image("images/uv.svg", width: 8%), baseline: 2pt) uv \
+      #box(image("images/colab.svg", width: 8.5%)) Google Colab \
+      #nerd-icons.nf-icon("nf-md-regex") Regular Expressions \
+    ],
   )
 
   #strong("Libraries:")
