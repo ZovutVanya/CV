@@ -108,7 +108,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
 ]
 \
 
-#box(image("images/Speech Drive.png", width: 2.5%), baseline: 1pt)
+#box(image("images/Speech Drive.png", width: 2.5%), baseline: 2pt)
 #strong(text("Speech Drive", baseline: -1pt)) #text("|", baseline: -1pt) #text("Python, Praat, pyannote, llama-cpp, PyTorch, gRPC, Docker", style: "oblique", baseline: -0.4pt)
 #h(1fr)#text("Mar. 2024 – now", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
@@ -126,7 +126,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
   #strong("Languages:") Russian, English
 
   #strong("Programming Languages:")
-  #nerd-icons.nf-icon("nf-dev-python") Python,
+  #box(image("images/python.svg", width: 1.9%), baseline: 4pt) Python,
   #nerd-icons.nf-icon("nf-oct-database") SQL,
   #nerd-icons.nf-icon("nf-custom-scheme")Racket,
   // #h(1cm)#nerd-icons.nf-icon("nf-custom-css")+HTML#nerd-icons.nf-icon("nf-dev-html5")
@@ -138,13 +138,15 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
   #grid(
     columns: (1fr, 1fr, 1fr, 1fr),
     align(center)[
-      #nerd-icons.nf-icon("nf-fa-linux")+Bash/Zsh \
-      #nerd-icons.nf-icon("nf-md-microsoft_windows_classic")+PowerShell \
-      #nerd-icons.nf-icon("nf-fa-git")+GitHub
+      // #nerd-icons.nf-icon("nf-fa-linux")+Bash/Zsh \
+      #box(image("images/Tux.svg", width: 8%), baseline: 2pt)+Bash/Zsh \
+      #box(image("images/Windows_Logo_(1992-2001).svg", width: 8%), baseline: 1pt)+PowerShell \
+      #box(image("images/git.svg", width: 15%), baseline: 2pt)+GitHub
     ], align(center)[
-      #nerd-icons.nf-icon("nf-custom-neovim") NeoVim \
-      #nerd-icons.nf-icon("nf-dev-vscode") VSCode \
-      #nerd-icons.nf-icon("nf-dev-docker") Docker \
+      // #nerd-icons.nf-icon("nf-custom-neovim") NeoVim \
+      #box(image("images/neovim-mark.svg", width: 8%), baseline: 2pt) NeoVim \
+      #box(image("images/vscode.svg", width: 9%), baseline: 2pt) VSCode \
+      #box(image("images/docker-mark-ocean-blue.svg", width: 9%), baseline: 2pt) Docker \
       // #nerd-icons.nf-icon("nf-dev-jupyter") Jupyter,
     ], align(center)[
       #box(image("images/FFmpeg_icon.svg", width: 8%), baseline: 2pt) FFmpeg \
@@ -152,7 +154,7 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
       #box(image("images/Praat.svg", width: 8%), baseline: 2pt) Praat \
       // #box(image("images/logo-ud.png", width: 2%), baseline: 1.5pt) Universal Dependencies,
     ], align(center)[
-      #box(image("images/uv.svg", width: 8%), baseline: 2pt) uv \
+      #box(image("images/uv.svg", width: 7%), baseline: 2pt) uv \
       #box(image("images/colab.svg", width: 8.5%)) Google Colab \
       #nerd-icons.nf-icon("nf-md-regex") Regular Expressions \
     ],
@@ -163,15 +165,15 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
     align: center,
     columns: (1fr, 1fr, 1fr),
     [
-      #nerd-icons.nf-icon("nf-dev-pandas")Pandas \
-      #nerd-icons.nf-icon("nf-dev-numpy") NumPy \
+      #box(image("images/pandas.svg", width: 6%), baseline: 3pt) Pandas \
+      #box(image("images/numpylogoicon.svg", width: 8%), baseline: 4pt) NumPy \
       #box(image("images/scipy_logo.svg", width: 7%), baseline: 2pt) SciPy \
-      #nerd-icons.nf-icon("nf-dev-matplotlib") Matplotlib
+      #box(image("images/Matplotlib_icon.svg", width: 7%), baseline: 2pt) Matplotlib
     ], [
-      #nerd-icons.nf-icon("nf-dev-pytorch") PyTorch \
-      #nerd-icons.nf-icon("nf-dev-scikitlearn") Scikit-learn \
+      #box(image("images/PyTorch_logo_icon.svg", width: 5%), baseline: 2pt) PyTorch \
+      #box(image("images/Scikit_learn_logo_small.svg", width: 9%), baseline: 1pt) Scikit-learn \
       #emoji.face.hug HuggingFace \
-      #nerd-icons.nf-icon("nf-dev-tensorflow") TensorFlow (Keras) \
+      #box(image("images/Tensorflow_logo.svg", width: 7%), baseline: 2pt) TensorFlow (Keras) \
     ], [
       // #box(image("images/librosa_full_logo.svg", width: 20%), baseline: 6pt) \
       • librosa \
