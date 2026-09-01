@@ -140,8 +140,8 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
     align(center)[
       // #nerd-icons.nf-icon("nf-fa-linux")+Bash/Zsh \
       #box(image("images/Tux.svg", width: 8%), baseline: 2pt)+Bash/Zsh \
-      #box(image("images/Windows_Logo_(1992-2001).svg", width: 8%), baseline: 1pt)+PowerShell \
-      #box(image("images/git.svg", width: 15%), baseline: 2pt)+GitHub
+      #box(image("images/Windows_Logo_(1992-2001).svg", width: 8%), baseline: 5pt)#text("+PowerShell", baseline: 4pt) \
+      #box(image("images/git.svg", width: 15%), baseline: 4pt)#text("+GitHub", baseline: 2pt)
     ], align(center)[
       // #nerd-icons.nf-icon("nf-custom-neovim") NeoVim \
       #box(image("images/neovim-mark.svg", width: 8%), baseline: 2pt) NeoVim \
@@ -154,33 +154,29 @@ Completed a certification from the Moscow Institute of Physics and Technology, s
       #box(image("images/Praat.svg", width: 8%), baseline: 2pt) Praat \
       // #box(image("images/logo-ud.png", width: 2%), baseline: 1.5pt) Universal Dependencies,
     ], align(center)[
-      #box(image("images/uv.svg", width: 7%), baseline: 2pt) uv \
-      #box(image("images/colab.svg", width: 8.5%)) Google Colab \
-      #nerd-icons.nf-icon("nf-md-regex") Regular Expressions \
+      #box(image("images/uv.svg", width: 7%), baseline: 3pt) #text("uv", baseline: 1pt) \
+      #box(image("images/colab.svg", width: 10%), baseline: 3.5pt) #text("Google Colab", baseline: 3pt) \
+      #nerd-icons.nf-icon("nf-md-regex", baseline: 1.7pt) #text("Regular Expressions", baseline: 1.7pt) \
     ],
   )
 
   #strong("Libraries:")
   #grid(
     align: center,
-    columns: (1fr, 1fr, 1fr),
+    columns: (1fr, 1fr),
     [
-      #box(image("images/pandas.svg", width: 6%), baseline: 3pt) Pandas \
-      #box(image("images/numpylogoicon.svg", width: 8%), baseline: 4pt) NumPy \
-      #box(image("images/scipy_logo.svg", width: 7%), baseline: 2pt) SciPy \
-      #box(image("images/Matplotlib_icon.svg", width: 7%), baseline: 2pt) Matplotlib
+      #box(image("images/pandas.svg", width: 6%), baseline: 3pt) #text("Pandas", baseline: -3pt) \
+      #box(image("images/numpylogoicon.svg", width: 8%), baseline: 4pt) #text("NumPy", baseline: -3pt) \
+      #box(image("images/scipy_logo.svg", width: 7%), baseline: 2pt) #text("SciPy", baseline: -4pt) \
+      #box(image("images/Matplotlib_icon.svg", width: 7%), baseline: 2pt) #text("Matplotlib", baseline: -3pt)
     ], [
-      #box(image("images/PyTorch_logo_icon.svg", width: 5%), baseline: 2pt) PyTorch \
-      #box(image("images/Scikit_learn_logo_small.svg", width: 9%), baseline: 1pt) Scikit-learn \
-      #emoji.face.hug HuggingFace \
-      #box(image("images/Tensorflow_logo.svg", width: 7%), baseline: 2pt) TensorFlow (Keras) \
-    ], [
-      // #box(image("images/librosa_full_logo.svg", width: 20%), baseline: 6pt) \
-      • librosa \
-      • NLTK \
-      • SpaCy \
-      • pymorphy \
-      // librosa
+      #box(image("images/PyTorch_logo_icon.svg", width: 5.5%), baseline: 12pt) #text("PyTorch", baseline: 8pt) \
+      #box(image("images/Scikit_learn_logo_small.svg", width: 10%), baseline: 15pt) #text("Scikit-learn", baseline: 12pt) \
+      #set text(14pt)
+      #box(emoji.face.hug, baseline: 10pt)
+      #set text(11pt)
+      #text("HuggingFace", baseline: 9pt) \
+      #box(image("images/Tensorflow_logo.svg", width: 6.5%), baseline: 15pt) #text("TensorFlow (Keras)", baseline: 11pt) \
     ]
   )
 ]
