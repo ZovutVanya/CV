@@ -47,7 +47,7 @@
 #text("2018–2022", baseline: -2pt)
 
 #h(0.6cm)
-#text("Diplomirani stručnjak sa počastima, Kognitivne nauke", style: "italic")
+#text("Prvi stepen visokog obrazovanja sa počastima, Kognitivne nauke", style: "italic")
 #h(1fr)
 #text("GPA: 4.77", style: "oblique")
 \
@@ -57,7 +57,7 @@
 ]
 
 #block(inset: (left: 0.5cm))[
-  #strong("Rad za diplomu osnovnih studija"): #text("Uticaj učestalosti pravopisnih grešaka i tipa ortograma na obradu reči", style: "normal", size: 11pt)
+  #strong("Rad za diplomu osnovnih studija"): #text("Uticaj učestalosti i tipa ortografskih jedinica na obradu reči", style: "normal", size: 11pt)
 ]
 \
 
@@ -98,11 +98,11 @@
   - Glavni inženjer za servis pretvaranja teksta u govor (Text-to-Speech) i modul za prepoznavanje emocija; jedan od developera modula za automatsko prepoznavanje govora (ASR)
 ]
 
-= Publikacije
-#line(length: 100%)
-#cite(<slioussarErrorsAreMore2022>, form: none)
-// #cite(<gurkovAvtomaticheskoeRaspoznavanieNeytralizaciya2024>, form: none)
-// #cite(<lyapinaRazrabotkaKorpusaInterferirovannoy2024>, form: none)
-#cite(<slioussarEffectSpellingErrors2026>, form: none)
-// #cite(<lmgic>, form: none)
-#bibliography("MyPubs.bib", title: none, style: "ieee", full: false)
+// = Publikacije
+// #line(length: 100%)
+// #cite(<slioussarErrorsAreMore2022>, form: none)
+// // #cite(<gurkovAvtomaticheskoeRaspoznavanieNeytralizaciya2024>, form: none)
+// // #cite(<lyapinaRazrabotkaKorpusaInterferirovannoy2024>, form: none)
+// #cite(<slioussarEffectSpellingErrors2026>, form: none)
+// // #cite(<lmgic>, form: none)
+// #bibliography("MyPubs.bib", title: none, style: "ieee", full: false)
