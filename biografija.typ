@@ -41,8 +41,8 @@
 = Obrazovanje
 #set par(spacing: 0.65em)
 #line(length: 100%)
-#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%))
-#strong(text("Sanktpeterburški državni univerzitet", baseline: -2pt))
+#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%), baseline: 3pt)
+#strong(link("https://english.spbu.ru")[Sanktpeterburški državni univerzitet])
 #h(1fr)
 #text("2018–2022", baseline: -2pt)
 
@@ -62,8 +62,8 @@
 \
 
 #set par(spacing: 0.65em)
-#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%))
-#strong(text("Sanktpeterburški državni univerzitet", baseline: -2pt))
+#box(image("images/Coat_of_arms_of_SPbU.svg", width: 2%), baseline: 3pt)
+#strong(link("https://english.spbu.ru")[Sanktpeterburški državni univerzitet])
 #h(1fr)
 #text("2022–2024", baseline: -2pt)
 
@@ -83,7 +83,7 @@
 
 = Nastava
 #line(length: 100%)
-#box(image("images/01_Logo_HSE_full_eng_PANTONE.svg", width: 2%)) #strong(text("Visoka škola ekonomije", baseline: -1.5pt))#h(1fr)#text("Септембар – децембар 2024", baseline: -1pt)
+#box(image("images/01_Logo_HSE_full_eng_PANTONE.svg", width: 2%), baseline: 2pt) #strong(link("https://spb.hse.ru/en")[Visoka škola ekonomije])#h(1fr)#text("Септембар – децембар 2024", baseline: -1pt)
 #block(inset: (left: 0.7cm))[
   - Predavao sam kurseve „Govorne tehnologije" i „Uvod u računarske nauke" kao gostujući predavač na Univerzitetu HSE
 ]
