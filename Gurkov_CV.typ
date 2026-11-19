@@ -63,11 +63,16 @@
 #text("GPA: 5.00", style: "oblique")
 
 == Coursework
-#block(inset: (left: 0.3cm))[
-  #strong("Master's"): Python, Linear Algebra, Calculus, Probability & Statistics, Machine Learning, Neural Networks, Mathematical Linguistics, Speech Acoustics, Automatic Speech Recognition, Text-to-Speech Synthesis
-]
+
 #block(inset: (left: 0.3cm))[
   #strong("Bachelor's"): Cognitive Psychology, Statistical Analysis of Experimental Data, Psycholinguistics, Cognitive Neurophysiology, Neurolinguistics
+]
+#block(inset: (left: 0.3cm))[
+  #strong("Bachelor's Thesis"): #text("Influence of Spelling Error Frequency and Orthogram Type on Word Processing", style: "normal", size: 11pt)
+]
+\
+#block(inset: (left: 0.3cm))[
+  #strong("Master's"): Python, Linear Algebra, Calculus, Probability & Statistics, Machine Learning, Neural Networks, Mathematical Linguistics, Speech Acoustics, Automatic Speech Recognition, Text-to-Speech Synthesis
 ]
 #block(inset: (left: 0.3cm))[
   #strong("Master's Thesis"): #text("Automatic Detection and Paraphrasing of Emotion Markers in Text and Speech", style: "normal", size: 11pt)
