@@ -95,6 +95,10 @@
 #cite(<lmgic>, form: none)
 #bibliography("MyPubs.bib", title: none, style: "ieee", full: true)
 
+\
+\
+\
+
 = Professional Development
 #line(length: 100%)
 #box(image("images/mipt_eng_base_png.png", width: 10%))#strong(text("Deep Learning School", baseline: -10pt))#h(1fr)#text("Sep. 2023 – Feb. 2024", baseline: -10pt)
